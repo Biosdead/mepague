@@ -1,0 +1,169 @@
+:root {
+    --paga: #04dc04;
+    --deve: red;
+    --fundo: #0088cc;
+    --frente: #eeeeee;
+    --contraste: #666666;
+    --contrasteMais: #979797;
+}
+
+html {
+    position: relative;
+}
+
+body{
+    background-color: var(--frente);
+}
+
+header {
+    text-align: center;
+    height: 15%;
+    background-color: var(--fundo);
+    border-radius: 25px;
+    color: var(--frente);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.paga {
+    background-color: var(--paga);
+}
+
+.deve {
+    background-color: var(--deve);
+}
+
+footer {
+    text-align: center;
+    height: 5%;
+    background-color: var(--fundo);
+    color: var(--frente);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+
+dialog::backdrop {
+    background-color: rgba(20, 40, 80, 0.8);
+}
+
+dialog {
+    border-radius: 25px;
+    background-color: var(--frente);
+    width: 50%;
+    text-align: center;
+}
+
+.dialogBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dialogBtns{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btnModal{
+    border-radius: 25px;
+    background-color: var(--frente);
+    font-weight: bolder;
+}
+
+.btnModal:hover {
+    background-color: var(--fundo);
+    color: var(--frente);
+}
+
+.btnModal:active {
+    background-color: var(--frente);
+    color: var(--fundo);
+}
+
+.btnModal{
+    margin: 5px;
+    width: 100%;
+}
+
+.debit {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    background-color: var(--fundo);
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.name {
+    background-color: var(--deve);
+    border-radius: 25px;
+}
+
+.debitBody{
+    display: flex;
+}
+
+
+.debitbtns {
+    position: absolute;
+    right: 1%;
+    border-radius: 25px;
+}
+
+.btns {
+    border-radius: 25px;
+    background-color: var(--frente);
+    font-weight: bolder;
+}
+
+.btns:hover {
+    background-color: var(--fundo);
+    color: var(--frente);
+}
+
+.btns:active {
+    background-color: var(--frente);
+    color: var(--fundo);
+}
+
+#btnMain{
+    border-radius: 25px;
+    background-color: var(--frente);
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+#btnMain:hover {
+    background-color: var(--fundo);
+    color: var(--frente);
+}
+
+#btnMain:active {
+    background-color: var(--frente);
+    color: var(--fundo);
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card {
+    border: var(--contraste) 2px solid;
+    border-radius: 25px;
+    margin-top: 1%;
+
+}
+
+

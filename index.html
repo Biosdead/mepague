@@ -1,0 +1,80 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Paga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <header>
+        <h2>Me Paga!</h2>
+        <h4>Controle suas dívidas</h4>
+    </header>
+    <nav>
+        <button id="btnMain" onclick="Mostrar()">
+            Nova Dívida
+        </button>
+        <button id="btnMain" onclick="Historico()">
+            Histórico
+        </button>
+    </nav>
+</head>
+
+<body>
+    <div id="cards">
+        <div class="card" id="1">
+            <div class="debit">
+                <div class="name">
+                    <h5>Marlise</h5>
+                </div>
+                <div class="debitBody">
+                    <p>Falta: R$900</p>
+                    <p>Pago: R$600</p>
+                    <p>Dívida: R$1500</p>
+                    <p>Desde: 13/05/1990</p>
+                </div>
+                <div class="debitbtns">
+                    <button class="btns" onclick="Atualizar(1)"><i class="fa-solid fa-pen"></i></button>
+                    <button class="btns" onclick="Deletar(1)"><i class="fa-solid fa-trash"></i></button>
+                    <button class="btns" onclick="Quitar(1)"><i class="fa-solid fa-check"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <dialog>
+        <div class="dialogTitle">
+            <h2>Nova dívida</h2>
+        </div>
+        <div class="dialogBody">
+            <form>
+                <fieldset>
+                    <legend>Preencha os dados da Dívida</legend>
+                    <label for="DebitName">Nome: </label><input id="DebitName" type="text" required>
+                    <br>
+                    <label for="DebitPrice">Dívida: </label><input id="DebitPrice" type="number" required>
+                    <br>
+                    <label for="DebitPaid">Pago: </label><input id="DebitPaid" type="number" value="0">
+                    <br>
+                    <label for="DebitSince">Desde: </label><input id="DebitSince" type="date" value="today">
+                </fieldset>
+        </div>
+        <div class="dialogBtns">
+            <button class="btnModal" onclick="closeModal()">Fechar</button>
+            <button class="btnModal" onclick="recordDebit()">Gravar</button>
+        </div>
+        </form>
+    </dialog>
+
+
+
+
+</body>
+<footer>
+    <small>Criado por <b>Lennon Sales Furtado</b></small>
+</footer>
+<script src="script.js"></script>
+
+</html>
