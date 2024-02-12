@@ -178,7 +178,7 @@ function Edit(id){
 
 function DeleteConfirm(){
     let elemento = document.getElementById(CurrentID);  
-    elemento.parentElement.removeChild(elemento);
+    elemento.parentElement.remove(elemento);
     closeDeleteModal();
 }
 
