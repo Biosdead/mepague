@@ -53,6 +53,7 @@ footer {
 
 dialog::backdrop {
     background-color: rgba(20, 40, 80, 0.8);
+    filter: blur(1.7rem);
 }
 
 dialog {
