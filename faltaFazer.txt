@@ -1,0 +1,4 @@
+Fazer uma versão com Histórico.
+
+Fazer a funcionalidade de quitar dívida
+Cada dívida quitada ela vai ser enviada para o histório que será carregado ao clicar no botão histórico.

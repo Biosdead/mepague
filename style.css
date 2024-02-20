@@ -97,29 +97,39 @@ dialog {
 }
 
 .debit {
-    display: flex;
+    /* display: flex; */
     width: 100%;
     align-items: center;
     position: relative;
     background-color: var(--fundo);
     border-radius: 25px;
     font-weight: bold;
+    
 }
 
 .name {
     background-color: var(--deve);
     border-radius: 25px;
+    border: var(--contraste) 2px solid;
+    width: fit-content;
+    position: relative;
+    left: 45%;
 }
 
 .debitBody{
     display: flex;
+    border: var(--contraste) 2px solid;
 }
 
+span {
+    padding-left: 3px;
+}
 
 .debitbtns {
     position: absolute;
     right: 1%;
     border-radius: 25px;
+    display: grid;
 }
 
 .btns {
@@ -161,10 +171,39 @@ p {
 }
 
 .card {
-    border: var(--contraste) 2px solid;
-    border-radius: 25px;
+    border: black 2px solid;
+    border-radius: 15px;
     margin-top: 1%;
-
+    font-size: small;
 }
 
+table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.tablename {
+    background-color: var(--deve);
+}
+
+.tableheader {
+    background-color: var(--fundo);
+    color: var(--frente);
+}
+
+.tablebody {
+    background-color: var(--fundo);
+    color: var(--frente);
+}
+
+.tablefooter {
+    background-color: var(--fundo);
+}
 
