@@ -91,8 +91,8 @@ function recordDebit() {
                         </tr>
                         <tr class="tablefooter">
                             <th colspan="4">
-                                <button class="btns" onclick="Edit(${CurrentID})"><i class="fa-solid fa-pen"></i></button>
-                                <button class="btns" onclick="Deletar(${CurrentID})"><i class="fa-solid fa-trash"></i></button>
+                                <button class="btns" onclick="Edit(${CurrentID})"><i class="fa-solid fa-pen"></i> - Atualizar</button>
+                                <button class="btns" onclick="Deletar(${CurrentID})"><i class="fa-solid fa-trash"></i> - Apagar</button>
                             </th>
                         </tr>
             </table>
@@ -155,8 +155,8 @@ function recordDebit() {
                         </tr>
                         <tr class="tablefooter">
                             <th colspan="4">
-                                <button class="btns" onclick="Edit(${id})"><i class="fa-solid fa-pen"></i></button>
-                                <button class="btns" onclick="Deletar(${id})"><i class="fa-solid fa-trash"></i></button>
+                                <button class="btns" onclick="Edit(${id})"><i class="fa-solid fa-pen"></i> - Atualizar</button>
+                                <button class="btns" onclick="Deletar(${id})"><i class="fa-solid fa-trash"></i> - Apagar</button>
                             </th>
                         </tr>
             </table>
