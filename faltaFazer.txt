@@ -1,3 +1,12 @@
+Versão 1.2
+Colocar a data automáticamente ao abrir o formulário
+
+
+
+
+
+Versão 2
+
 Fazer uma versão com Histórico.
 
 Fazer a funcionalidade de quitar dívida

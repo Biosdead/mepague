@@ -27,8 +27,8 @@ function ApagarDados(identification){
 }
 
 function Mostrar(){
-    ColocarDataPrazoNoDiadeHoje();
     dialogo.showModal();
+    ColocarDataPrazoNoDiadeHoje();
 }
 
 function Quitar(){
@@ -214,8 +214,13 @@ function Edit(id){
   }
 
   function ColocarDataPrazoNoDiadeHoje(){
-    let dia = new Date();
-    let datadeHoje = dia.getFullYear() + "-" + (dia.getMonth()+1) + "-" + dia.getDate();
+    let hoje = new Date();
+    let dia = hoje.getDate()<10 ? "0" + hoje.getDate() : hoje.getDate();
+    let mes = (hoje.getMonth()+1)<10 ? "0" + (hoje.getMonth()+1) : (hoje.getMonth()+1);
+    let ano = hoje.getFullYear();
+    // let datadeHoje = dia.getFullYear() + "/" + (dia.getMonth()+1) + "/" + dia.getDate();
+    let datadeHoje = ano + "-" + mes + "-" + dia;
+    // let datadeHoje = dia.getDate() + "/" + (dia.getMonth()+1) + "/" + dia.getFullYear();
     document.getElementById("DebitSince").value = datadeHoje; 
     // document.getElementById("Deadline").value = datadeHoje; 
   }
