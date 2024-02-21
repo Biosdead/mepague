@@ -61,7 +61,7 @@ dialog::backdrop {
 dialog {
     border-radius: 25px;
     background-color: var(--frente);
-    width: 70%;
+    width: 80%;
     text-align: center;
     font-size: small;
 }
