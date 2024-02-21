@@ -13,6 +13,7 @@ html {
 
 body{
     background-color: var(--frente);
+    min-height: 100%;
 }
 
 header {
@@ -40,13 +41,14 @@ nav {
 
 footer {
     text-align: center;
-    height: 5%;
+    height: fit-content;
     background-color: var(--fundo);
     color: var(--frente);
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     border-radius: 25px;
+    margin-top: 75%;
 }
 
 
@@ -68,10 +70,19 @@ input{
     width: 75%;
 }
 
+label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+
 .dialogBody {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    margin: auto;
+    width: 70%;
+    font-size: medium;
 }
 
 

@@ -7,17 +7,22 @@ Fazer os btns preencher todo o espaço restante. - Feito
 
 
 Versão 1.4
--Página de doação via pix no rodapé ou uma página própria.
--Fixar o rodapé no fundo da página.
--Aumentar o formulário Dialog Body para 80% do dialog
+-Página de doação via pix no rodapé ou uma página própria. (Feito)
+-Fixar o rodapé no fundo da página.  (Feito)
+-Aumentar o formulário Dialog Body para 80% do dialog (Feito)
+-Alinhei o formulário Dialog Body entre input e labels. (Feito)
+-Atulizações dos placeholders do Dialog Body. (Feito)
+
+Publicar no Android
 
 
 Versão 2
 
 Fazer uma versão com Histórico.
-
 Fazer a funcionalidade de quitar dívida
 Cada dívida quitada ela vai ser enviada para o histório que será carregado ao clicar no botão histórico.
+Adicionar google ads no app
+
 
 Versão 2.1
 -Prazo de pagamento. Estabelecer uma data de Prazo para pagar. E mostrar os pagamentos atrasados.
