@@ -13,7 +13,7 @@ Versão 1.4 (Feito)
 -Atulizações dos placeholders do Dialog Body. (Feito)
 
 Versão 1.5
--Fixar o rodapé no fundo da página.
+-Fixar o rodapé no fundo da página. (Feito)
 -Publicar no Android
 
 
