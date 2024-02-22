@@ -6,14 +6,15 @@ Rotulo nos botões - Feito
 Fazer os btns preencher todo o espaço restante. - Feito
 
 
-Versão 1.4
+Versão 1.4 (Feito)
 -Página de doação via pix no rodapé ou uma página própria. (Feito)
--Fixar o rodapé no fundo da página.  (Feito)
 -Aumentar o formulário Dialog Body para 80% do dialog (Feito)
 -Alinhei o formulário Dialog Body entre input e labels. (Feito)
 -Atulizações dos placeholders do Dialog Body. (Feito)
 
-Publicar no Android
+Versão 1.5
+-Fixar o rodapé no fundo da página.
+-Publicar no Android
 
 
 Versão 2
