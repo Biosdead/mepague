@@ -14,8 +14,14 @@ Versão 1.4 (Feito)
 
 Versão 1.5
 -Fixar o rodapé no fundo da página. (Feito)
--Publicar no Android
 
+
+Versão 1.6
+-Colocar os btns em cores correspondentes as suas funcionalidade de pix no rodapé. (Feito)
+-Colocar cor da Dívida em um vermelho mais agradavél. Feito
+-Deixar a letra da dívida em branco. Feito
+-Corrigir o bug de clicar em apagar e cancelar e mesmo assim apagar depois de recarregar a tela. Feito
+-Publicar no Android 
 
 Versão 2
 

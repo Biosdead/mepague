@@ -1,10 +1,14 @@
 :root {
     --paga: #04dc04;
-    --deve: red;
+    --deve: #FF0e0e;
     --fundo: #0088cc;
     --frente: #eeeeee;
     --contraste: #666666;
     --contrasteMais: #979797;
+    --delete:#FF0e0e;
+    --edit:#FEFE00;
+    /* --edit:#FF8800; */
+
 }
 
 html {
@@ -98,6 +102,8 @@ label {
     border-radius: 25px;
     background-color: var(--frente);
     font-weight: bolder;
+    margin: 5px;
+    width: 50%;
 }
 
 .btnModal:hover {
@@ -110,11 +116,6 @@ label {
     color: var(--fundo);
 }
 
-.btnModal{
-    margin: 5px;
-    width: 100%;
-}
-
 .debit {
     /* display: flex; */
     width: 100%;
@@ -123,7 +124,6 @@ label {
     background-color: var(--fundo);
     border-radius: 25px;
     font-weight: bold;
-    
 }
 
 .name {
@@ -134,6 +134,11 @@ label {
     position: relative;
     left: 45%;
 }
+
+.tablename {
+    color: white;
+}
+
 
 .debitBody{
     display: flex;
@@ -168,7 +173,57 @@ span {
     color: var(--fundo);
 }
 
-#btnMain{
+.btnDelete {
+    border-radius: 25px;
+    background-color: var(--delete);
+    font-weight: bolder;
+    width: 49%;
+}
+
+.btnDelete:hover {
+    background-color: var(--frente);
+    color: var(--delete);
+}
+
+.btnDelete:active {
+    background-color: var(--delete);
+    color: var(--frente);
+}
+
+.btnEdit {
+    border-radius: 25px;
+    background-color: var(--edit);
+    font-weight: bolder;
+    width: 49%;
+}
+
+.btnEdit:hover {
+    background-color: var(--frente);
+}
+
+.btnEdit:active {
+    background-color: var(--edit);
+    color: var(--frente);
+}
+
+.btnOK {
+    border-radius: 25px;
+    background-color: var(--paga);
+    font-weight: bolder;
+    width: 50%;
+}
+
+.btnOK:hover {
+    background-color: var(--frente);
+    color: var(--paga);
+}
+
+.btnOK:active {
+    background-color: var(--paga);
+    color: var(--frente);
+}
+
+/* #btnMain{
     border-radius: 25px;
     background-color: var(--frente);
     font-weight: bolder;
@@ -183,7 +238,7 @@ span {
 #btnMain:active {
     background-color: var(--frente);
     color: var(--fundo);
-}
+} */
 
 p {
     margin-left: 5px;

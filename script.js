@@ -91,8 +91,8 @@ function recordDebit() {
                         </tr>
                         <tr class="tablefooter">
                             <th colspan="4">
-                                <button class="btns" onclick="Edit(${CurrentID})"><i class="fa-solid fa-pen"></i> - Atualizar</button>
-                                <button class="btns" onclick="Deletar(${CurrentID})"><i class="fa-solid fa-trash"></i> - Apagar</button>
+                                <button class="btnEdit" onclick="Edit(${CurrentID})"><i class="fa-solid fa-pen"></i> - Atualizar</button>
+                                <button class="btnDelete" onclick="Deletar(${CurrentID})"><i class="fa-solid fa-trash"></i> - Apagar</button>
                             </th>
                         </tr>
             </table>
@@ -155,8 +155,8 @@ function recordDebit() {
                         </tr>
                         <tr class="tablefooter">
                             <th colspan="4">
-                                <button class="btns" onclick="Edit(${id})"><i class="fa-solid fa-pen"></i> - Atualizar</button>
-                                <button class="btns" onclick="Deletar(${id})"><i class="fa-solid fa-trash"></i> - Apagar</button>
+                                <button class="btnEdit" onclick="Edit(${id})"><i class="fa-solid fa-pen"></i> - Atualizar</button>
+                                <button class="btnDelete" onclick="Deletar(${id})"><i class="fa-solid fa-trash"></i> - Apagar</button>
                             </th>
                         </tr>
             </table>
@@ -192,7 +192,7 @@ function recordDebit() {
 
 function Deletar(id){
     CurrentID = id;
-    ApagarDados(id);
+    // ApagarDados(id);
     dialogoDelete.showModal();  
     
 }
@@ -238,6 +238,7 @@ function Edit(id){
 function DeleteConfirm(){
     let elemento = document.getElementById(CurrentID);  
     elemento.parentElement.remove(elemento);
+    ApagarDados(CurrentID);
     closeDeleteModal();
 }
 
