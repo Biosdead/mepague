@@ -21,7 +21,11 @@ Versão 1.6
 -Colocar cor da Dívida em um vermelho mais agradavél. Feito
 -Deixar a letra da dívida em branco. Feito
 -Corrigir o bug de clicar em apagar e cancelar e mesmo assim apagar depois de recarregar a tela. Feito
+
+Versão 1.7
+-Colocar os btns em cores correspondentes dos dialogs. Feito
 -Publicar no Android 
+-Adicionado Pasta com icone
 
 Versão 2
 
