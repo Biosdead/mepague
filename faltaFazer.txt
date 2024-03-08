@@ -24,8 +24,8 @@ Versão 1.6
 
 Versão 1.7
 -Colocar os btns em cores correspondentes dos dialogs. Feito
--Publicar no Android 
--Adicionado Pasta com icone
+-Publicar no Android. Feito
+-Adicionado Pasta com icone. Feito
 
 Versão 2
 
