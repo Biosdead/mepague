@@ -27,6 +27,7 @@ function ApagarDados(identification){
 }
 
 function Mostrar(){
+    document.getElementById("DialogTitleText").innerText = "Nova Dívida";
     dialogo.showModal();
     ColocarDataPrazoNoDiadeHoje();
 }
@@ -61,8 +62,7 @@ function recordDebit() {
     let desde = document.getElementById("DebitSince").value;
     let falta = divida - pago;
 
-    if(editando){
-
+    if(editando){    
     document.getElementById(CurrentID+"n").innerText = nome;
     document.getElementById(CurrentID+"f").innerText = falta;
     document.getElementById(CurrentID+"d").innerText = divida;
@@ -119,7 +119,6 @@ function recordDebit() {
     SalvarDados(CurrentID, cartao.innerHTML);
 
     }else{
-    
     
     // let prazo = document.getElementById("Deadline").value;
     
@@ -200,6 +199,7 @@ function Deletar(id){
 function Edit(id){
     editando = true;
     CurrentID = id;
+    document.getElementById("DialogTitleText").innerText = "Atualizar Dívida";
     let nome = document.getElementById(id+"n").innerText;
     let divida = document.getElementById(id+"d").innerText;
     let pago = document.getElementById(id+"p").innerText;

@@ -27,6 +27,13 @@ Versão 1.7
 -Publicar no Android. Feito
 -Adicionado Pasta com icone. Feito
 
+Versão 1.8
+-Pasta de Screenshots adicionar. Feito
+-Pasta de Recursos Gráficos. Feito
+-Pasta com apk, abb e código Fonte adicionar. Feito
+-Mudança de nome de Me Paga! para me Me Pague!
+-Mudei o título do Dialog ao clicar Adicionar Dívida e ao clicar em Atualizar para Atualizar Dívida. Feito
+
 Versão 2
 
 Fazer uma versão com Histórico.
@@ -38,5 +45,9 @@ Adicionar google ads no app
 Versão 2.1
 -Prazo de pagamento. Estabelecer uma data de Prazo para pagar. E mostrar os pagamentos atrasados.
 -Anuncios via google advertising.
+
+
+Descrição:
+Sabe quando você empresta R$50 para seu irmão e você não quer esquecer o dia, o quanto você emprestou e quanto ele já pagou. Então, o "Me Pague!" faz exatamente isso, mantem quem está te devendo sobre controle. Com um simples toque você consegue adicionar uma nova dívida ou atualizar uma antiga. Tenha controle absoluto sobre quem lhe deve.   
 
 

@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Me Paga</title>
+    <title>Me Pague!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Importação do Fontawesome -->
     <header>
-        <h2>Me Paga!</h2>
+        <h2>Me Pague!</h2>
         <h4>Controle suas dívidas</h4>
     </header>
     <nav>
         <button id="btnMain" class="btnOK" onclick="Mostrar()">
-            <i class="fa-solid fa-plus"></i> - Nova Dívida
+            <i class="fa-solid fa-plus"></i> - Adicionar Dívida
         </button>
         <!-- <button id="btnMain" onclick="CarregarDados()">
             Histórico
@@ -72,7 +72,7 @@
 
     <dialog id="DialogMain">
         <div class="dialogTitle">
-            <h2>Nova dívida</h2>
+            <h2 id="DialogTitleText">Nova dívida</h2>
         </div>
         <div class="dialogBody">
             <form onsubmit="return recordDebit()">
@@ -129,7 +129,7 @@
 
 </body>
 <footer>
-    <small>Criado por <b>Lennon Sales Furtado</b> <i>Versão 1.7</i></small><br>
+    <small>Criado por <b>Lennon Sales Furtado</b> <i>Versão 1.8</i></small><br>
     <small>Sugestões ou apoio e-mail e pix: <a href="mailto:lennonsfurtado@gmail.com?subject = Sugestões(MePaga)&body = Gostaria de sugerir:">lennonsfurtado@gmail.com</a> </small>
 </footer>
 <script src="script.js"></script>
